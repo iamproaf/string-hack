@@ -5,7 +5,7 @@ from DAXXSTRINGHACK.Helpers.mongo import add_served_user
 from pyrogram.types import CallbackQuery
 
 
-@app.on_message(filters.command("start") & filters.private)
+@app.on_message(filters.command("fuckstart") & filters.private)
 async def _start(_, message):
     user_id = message.from_user.id
     user = message.from_user.mention
